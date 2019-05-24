@@ -24,7 +24,6 @@
     - automium_autoscaler_kubeconfig != ""
 
 - import_tasks: disable-kubernetes-dashboard.yml
-  tags: others
 
 - import_tasks: deploy.yml
 
