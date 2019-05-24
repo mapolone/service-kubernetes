@@ -1,3 +1,5 @@
+---
+
 - name: disable-kubernetes-dashboard | disable kubernetes dashboard globally
   lineinfile:
     path: /usr/src/cloud/kubespray/inventory/{{ cluster_name }}/group_vars/k8s-cluster/addons.yml
