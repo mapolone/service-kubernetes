@@ -24,9 +24,7 @@
     - automium_autoscaler_kubeconfig != ""
 
 - import_tasks: disable-kubernetes-dashboard.yml
-  tags: others
-  when:
-    - master == "true" or node == "true"
+  tags: bootstrap
 
 - import_tasks: deploy.yml
 
